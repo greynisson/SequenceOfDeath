@@ -1,0 +1,109 @@
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: darkblue;
+    text-align: center;
+  }
+
+  .title {
+    color: white;
+    font-family: monospace;
+    margin-top: 50px;
+    font-size: 3rem;
+  }
+
+  .status {
+    color: white;
+    font-family: monospace;
+    margin-top: 25px;
+    font-size: 2rem;
+  }
+
+  .box {
+    height: 100px;
+    width: 100px;
+    border: solid black 10px;
+    margin: 0 auto;
+    border-radius: 25%;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .box-up {
+    background: yellow;
+    position: absolute;
+    left: 50%;
+    margin-top: 100px;
+    transform: translate(-50%, -50%);
+  }
+
+  .box-left {
+    background-color: red;
+    position: relative;
+    right: 150px;
+    top: 175px;
+  }
+
+  .box-right {
+    background-color: green;
+    position: relative;
+    left: 150px;
+    top: 55px;
+  }
+
+  .box-down {
+    background-color: powderblue;
+    position: relative;
+    top: 70px;
+
+     /*
+    transform: translate(-50%, -50%); */
+  }
+
+  .box-active {
+    visibility: hidden;
+  }
+
+  .btn {
+    height: 50px;
+    width: 150px;
+    background-color: gold;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    position: relative;
+    top: 100px;
+  }
+
+  .high-score {
+    width: 250px;
+    margin: 50px auto 50px;
+    background-color: white;
+    color: darkblue;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    border-radius: 50px;
+  }
+
+  .score-text {
+    padding: 20px 0 10px;
+  }
+
+  .score {
+    padding: 10px 0 20px;
+  }
+
+  .btn {
+    position: relative;
+    bottom: 300px;
+  }
+
+  .btn-hide {
+    display: none;
+  }
+}
