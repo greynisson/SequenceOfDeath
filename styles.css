@@ -7,26 +7,26 @@
   .title {
     color: white;
     font-family: monospace;
-    margin-top: 50px;
-    font-size: 2rem;
+    margin-top: 25px;
+    font-size: 1rem;
   }
 
   .status {
     color: white;
     font-family: monospace;
-    margin-top: 25px;
-    font-size: 1.5rem;
+    margin-top: 12.5px;
+    font-size: 0.75rem;
   }
 
   .box {
-    height: 100px;
-    width: 100px;
-    border: solid black 5px;
+    height: 50px;
+    width: 50px;
+    border: solid black 2.5px;
     margin: 0 auto;
     border-radius: 25%;
     line-height: 4;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 0rem;
   }
 
   .box-up {
@@ -38,23 +38,23 @@
     background-color: red;
     color: red;
     position: relative;
-    right: 125px;
-    top: 15px;
+    right: 60px;
+    top: 10px;
   }
 
   .box-right {
     background-color: green;
     color: green;
     position: relative;
-    left: 125px;
-    bottom: 95px;
+    left: 60px;
+    bottom: 45px;
   }
 
   .box-down {
     background-color: powderblue;
     color: powderblue;
     position: relative;
-    bottom: 80px;
+    bottom: 35px;
   }
 
   .box-active {
@@ -62,21 +62,22 @@
   }
 
   .btn {
-    height: 50px;
-    width: 175px;
+    height: 25px;
+    width: 87.5px;
     background-color: gold;
     color: black;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: bolder;
-    /*margin-bottom: 25px; */
+    position: relative;
+    top: -135px;
   }
 
   .high-score {
-    width: 125px;
-    margin: 25px auto 150px;
+    width: 67.5px;
+    margin: 12.5px auto 75px;
     background-color: white;
     color: darkblue;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: bold;
     position: relative;
     /* left: 600px;
@@ -85,17 +86,17 @@
   }
 
   .score-text {
-    padding: 10px 0 5px;
+    padding: 5px 0 5px;
   }
 
   .score {
-    padding: 10px 0 10px;
+    padding: 5px 0 5px;
   }
 
-  .btn {
+  /* .btn {
     position: relative;
     bottom: 300px;
-  }
+  } */
 
   .btn-hide {
     display: none;
